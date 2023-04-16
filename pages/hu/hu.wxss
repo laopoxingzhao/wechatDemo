@@ -1,0 +1,24 @@
+/* pages/hu/hu.wxss */
+.city{
+  margin-left: 20px;
+
+}
+.province{
+  text-align: center;
+  font-size: larger;
+  text-decoration:underline;
+  color:rgb(5, 238, 5);
+}
+.cityRow{
+  margin-left: 8%;
+  width: 90%;
+}
+.city{
+  display: inline-block;
+  width: 28%;
+  background-color: rgb(129, 110, 148);
+  margin: 2px 4px;
+  text-align: center;
+  Border-radius:10px;
+
+}

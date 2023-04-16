@@ -1,0 +1,10 @@
+ <text>{{hu}}</text>
+ <!-- <image bindtap="tiaozhuan" src="/res/bilibili.png"/> -->
+ <view class="cities" wx:for="{{cities}}" wx:key="{{index}}">
+    <view class="cityBox">
+        <view class="province">{{item.province}}:{{item.province_id}}</view>
+        <view class="cityRow">
+            <view class="city" wx:for="{{item.citys}}" wx:key="{{index}}">     {{item.city}}:<view>{{item.city_id}}</view> </view>
+        </view>
+    </view>
+</view>
